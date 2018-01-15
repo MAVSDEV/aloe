@@ -330,13 +330,18 @@ hr {
     height: auto;
 }
 
-#intro.intro {
-	padding:20% 0 0 0;
+#intro>.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: #45633f;
+  opacity: 0.75;
+  z-index: -1;
 }
 
 .intro .slogan {
 	text-align: center;
-
+	padding: 20% 0 0 0;
 }
 
 .intro .page-scroll {
